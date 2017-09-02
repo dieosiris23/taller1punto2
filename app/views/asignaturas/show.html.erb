@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Codigo:</strong>
+  <%= @asignatura.codigo %>
+</p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @asignatura.nombre %>
+</p>
+
+<p>
+  <strong>Prerresquisitos:</strong>
+  <%= @asignatura.prerresquisitos %>
+</p>
+
+<p>
+  <strong>Profesor:</strong>
+  <%= @asignatura.profesor %>
+</p>
+
+<p>
+  <strong>Creditos:</strong>
+  <%= @asignatura.creditos %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @asignatura.descripcion %>
+</p>
+
+<%= link_to 'Edit', edit_asignatura_path(@asignatura) %> |
+<%= link_to 'Back', asignaturas_path %>

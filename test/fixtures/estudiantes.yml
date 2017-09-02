@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  birthday: 2017-09-02
+  mail: MyString
+  papa: 9.99
+  creditos_inscritos: 
+
+two:
+  nombre: MyString
+  birthday: 2017-09-02
+  mail: MyString
+  papa: 9.99
+  creditos_inscritos: 
